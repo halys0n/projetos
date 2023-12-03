@@ -7,7 +7,7 @@ if(isset($_POST['marca'],$_POST['marca'],$_POST['modelo'],$_POST['preco'],$_POST
             $produtos->marca=$_POST['marca'];
             $produtos->modelo=$_POST['modelo'];
             $produtos->preco=$_POST['preco'];
-            $produtos->quanttidade=$_POST['quantidade'];
+            $produtos->quantidade=$_POST['quantidade'];
             $produtos->lote=$_POST['lote'];
             $produtos->specs=$_POST['specs'];
             $produtos->cadastrar();
